@@ -1,0 +1,47 @@
+p {
+color:rgb(0, 100, 95);
+}
+
+#principal {
+
+   color:rgba(34, 255, 0, 0.869);
+   font-size:30px;
+   text-align: justify;
+   margin-top: 1%;
+   margin-left: 2%;
+   border-right: 2%;
+}
+
+#caixa {
+   border: 8px solid rgba(0, 128, 17, 0.544);
+   width: 95%;
+   height: 130px;
+   padding-right: 3%;
+   margin-left: 0.5%;
+   margin-right: 0%;
+}
+
+.texto {
+
+   color: cornflowerblue; 
+   
+}
+
+h1{
+   color:darkgreen;
+}
+
+form{
+   color:rgb(0, 77, 100)
+   
+
+}
+
+input{
+   color: rgb(128, 47, 0)
+
+}
+
+
+
+
