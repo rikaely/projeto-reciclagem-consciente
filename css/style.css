@@ -21,7 +21,7 @@ text-align: justify
 #caixa {
    border: 8px solid rgba(31, 143, 46, 0.544);
    width: 95%;
-   height: 130px;
+   /* height: 130px; */
    padding-right: 3%;
    margin-left: 0.5%;
    margin-right: 0%;
@@ -35,7 +35,8 @@ text-align: justify
 
 h1{
    color:darkgreen;
-   text-align:center
+   text-align:center;
+   font-size: 50px;
 }
 
 form{
@@ -50,6 +51,14 @@ input {
 #enviar{
    background-color:greenyellow
 }
-img{
-   image-orientation: center
+
+#logo_principal{
+   /* border:1px solid red; */
+   background-color:#d3efd0;
+   display:flex;
+   justify-content: center;
+
+
 }
+
+
