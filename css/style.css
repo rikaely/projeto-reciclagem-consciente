@@ -4,16 +4,20 @@ body {
    padding: 0;
    box-sizing: border-box;
 }
+
 h1{
-   color:darkgreen;
+   color: #ffffff;
+   background: linear-gradient(90deg, rgba(7,108,114,1) 0%, rgba(123,205,163,1) 100%);
    text-align:center;
    font-size: 50px;
+   border: 2px solid rgba(7, 108, 114,1);
+   padding: 5px;
 }
 
 p {
-color:rgb(0, 100, 95);
+color: rgb(3, 63, 3);
 font-size: 20px;
-text-align: justify
+text-align: justify;
 }
 
 #principal {
@@ -27,33 +31,24 @@ text-align: justify
 }
 
 #caixa {
-   border: 8px solid rgba(31, 143, 46, 0.544);
-   width: 95%;
+   border: 5px solid rgba(31, 143, 46, 0.544);
+   width: 97%;
    /* height: 130px; */
-   padding: 0 20px;
-   margin-left: 0.5%;
+   padding: 0 16px;
+   margin-left: 0%;
    margin-right: 0%;
 }
 
 .texto {
 
    /* color: cornflowerblue; */
-   font-size: 20px
-}
-
-
-form{
-   color:rgb(0, 100, 87)
+   font-size: 20px;
    
 }
 
 input {
    color: darkgreen;
    border: 1px solid 
-}
-
-#enviar{
-   background-color:greenyellow
 }
 
 #logo_principal{
@@ -78,7 +73,7 @@ form{
 }
 
 input {
-   color: white;
+   color: #d9d9d9;
    background: linear-gradient(90deg, rgba(7,108,114,1) 0%, rgba(123,205,163,1) 100%);
    border:1px solid rgba(31, 143, 46, 0.544);
    width: 100%;
@@ -87,7 +82,7 @@ input {
 }
 
 input::placeholder {
-   color: white;
+   color: #d9d9d9;
 }
 
 #enviar{
@@ -105,4 +100,27 @@ input::placeholder {
 #formulario{
    /* border: 1px solid red; */
    width: 50%;
+}
+
+#tabela{
+   border: 1px solid rgba(31, 143, 46, 0.544);
+   width: 98%;
+   padding: 0 15px;
+   margin-left: 0%;
+   margin-right: 0%;
+   height: 40px;
+   background: linear-gradient(90deg, rgba(76,207,104,1) 0%, rgba(7,108,114,1) 100%);
+   
+}
+
+#bloco{
+   border: 1px solid rgba(31, 143, 46, 0.544);
+   width: 98%;
+   /* height: 130px; */
+   padding: 0 15px;
+   margin-left: 0%;
+   margin-right: 0%;
+   background-color:  rgb(214, 230, 221);
+   height: 98x;
+
 }

@@ -7,26 +7,30 @@
    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+   <h1>Descarte seus resíduos sem sair de casa</h1>
    <p class="texto">Preencha o formulário e enviaremos as informações sobre como funciona o descarte domiciliar:</p>
 <div id="formulario">
    <form action="#">
        <label for="fname">Primeiro nome:</label>
-       <input type="text" id="fname" name="fname" placeholder="-Digite seu primeito nome-">
+       <input type="text" id="fname" name="fname" placeholder="Digite seu primeito nome">
 
        <label for="lname">Sobrenome:</label>
-       <input type="text" id="lname" name="lname" placeholder="-Digite seu sobrenome-">
+       <input type="text" id="lname" name="lname" placeholder="Digite seu sobrenome">
 
        <label for="email">Insira seu email:</label>
-       <input type="email" id="email" name="email" placeholder="-Digite seu email-">
+       <input type="email" id="email" name="email" placeholder="Digite seu email">
 
        <label for="telefone">Insira seu telefone:</label>
        <input type="tel" id="telefone" name="telefone" placeholder="(__)_______-__">
 
        <label for="bairro de sobral">Insira o bairro de Sobral em que mora:</label>
-       <input type="text" id="bairro de sobral" name="bairro de sobral" placeholder="-Digite seu bairro-">
+       <input type="text" id="bairro de sobral" name="bairro de sobral" placeholder="Digite seu bairro">
 
-       <label for="descarte">Quantidade e objetos que deseja descartar:</label>
-       <input type="text" id="descarte domiciliar" name="descarte domiciliar" placeholder="-Digite quantidade e objetos-">
+       <label for="descarte">Objetos que deseja descartar:</label>
+       <input type="text" id="descarte domiciliar" name="descarte domiciliar" placeholder="Digite os objetos">
+
+       <label for="descarte">Quantidade que deseja descartar:</label>
+       <input type="number" id="descarte domiciliar" name="descarte domiciliar" placeholder="Digite quantidade de objetos">
        
        <input type="button" onclick="enviarsucesso_form()"  id="enviar" value="Enviar">
 
